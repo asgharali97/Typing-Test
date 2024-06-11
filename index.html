@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="stats">
+            <p>Time: <span id="time">60s</span></p>
+            <p>Mistakes: <span id="mistake">0</span></p>
+        </div>
+        <div id="quote" onmousedown="return false" onselectstart="return false" >
+        </div>
+        <textarea id="quote-input" rows="3" placeholder="Type here when test start...">
+        </textarea>
+        <button id="start-test" onclick="startTest()">Start Test</button>
+        <button id="stop-test" onclick="displayResult()">Stop Test</button>
+        <div class="result">
+            <h2>Result</h2>
+            <div class="wraper">
+                <p>Accuracy : <span id="accuracy"></span></p>
+                <p>Speed : <span id="wpm"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
