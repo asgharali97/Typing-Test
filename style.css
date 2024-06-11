@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans',  sans-serif;
+}
+
+body{
+    background-color: #3c3c3c;
+    color: white;
+}
+
+.container{
+    width: 80vmin;
+    padding: 50px 30px;
+    background-color: #282828;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 1rem;
+}
+
+.stats{
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.stats span{
+    font-weight: 600;
+}
+
+#quote{
+    text-align: justify;
+    margin: 50px 0 30px 0;
+    font-size: 18px;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 0.3rem;
+    background-color: #3c3c3c;
+    color: #757575;
+    font-size: 18px;
+}
+
+button{
+    float: right;
+    margin: 20px;
+    background-color:#3c3c3c;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.result{
+    margin-top: 2rem;
+    display: none;
+}
+
+.result h2{
+    text-align: center;
+    margin-bottom:20px ;
+    font-size: 22px;
+}
+
+.wraper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wraper span{
+    font-weight: 600;
+}
+
+.success{
+   color: #44b267;
+}
+
+.fail{
+   color: #e81c4e;
+}
